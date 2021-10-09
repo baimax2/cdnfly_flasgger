@@ -8,14 +8,7 @@ setup(
     author='Baimax',
     author_email='baimax@funnull.com',
     description='Extract swagger specs from cdnfly flask project',
-    packages=find_packages(
-        exclude=[
-            'tests', 'tests.*',
-            'examples', 'examples.*',
-            'demo_app', 'demo_app.*',
-            'etc', 'etc.*'
-        ]
-    ),
+    packages=["flasgger"]
     include_package_data=True,
     zip_safe=False,
     platforms='any',
