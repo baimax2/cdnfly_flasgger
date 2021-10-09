@@ -1,0 +1,13 @@
+include *.md LICENSE
+
+recursive-include flasgger *
+recursive-include flasgger/swaggerui *
+recursive-include flasgger/swaggerui/css *
+recursive-include flasgger/swaggerui/fonts *
+recursive-include flasgger/swaggerui/images *
+recursive-include flasgger/swaggerui/lang *
+recursive-include examples *
+recursive-include tests *
+
+recursive-exclude flasgger __pycache__
+recursive-exclude flasgger *.py[co]
